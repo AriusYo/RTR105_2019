@@ -12,3 +12,10 @@ pwd - parāda kur atrodaties
 / - saknes apgabals
 ls - parāda failus
 ls -l - detalizēti parāda failus
+ls -a - neignorē to kas sākas ar 
+ls -la - detalizēti parāda visus failus
+cd - pārvieto uz citu directory
+mkdir - izveido mapi
+rmdir - izdzēš mapi
+> - ievieto failā
+cat - parāda faila saturu
