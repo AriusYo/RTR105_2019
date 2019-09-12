@@ -19,3 +19,8 @@ mkdir - izveido mapi
 rmdir - izdzēš mapi
 > - ievieto failā
 cat - parāda faila saturu
+history - parāda komandu vēsturi
+cd ~ - mājas
+cd / - saknes apgabals
+cd . -tepat
+cd .. - atpakaļ
