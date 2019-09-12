@@ -1,0 +1,99 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  yeet
+    4  firefox
+    5  exit
+    6  ls
+    7  touch aaa.txt
+    8  ls
+    9  la -l
+   10  cat aaa.txt 
+   11  echo Pirmais teksts
+   12  echo Pirmais teksts > aaa.txt
+   13  cat aaa.txt 
+   14  la -l aaa.txt
+   15  echo Otrais teksts >  aaa.txt
+   16  cat aaa.txt 
+   17  echo Pirmais teksts > aaa.txt
+   18  echo Otrais teksts >>  aaa.txt
+   19  cat aaa.txt 
+   20  ls -l aaa.txt 
+   21  echo Yeet >> aaa.txt 
+   22  cat aaa.txt 
+   23  nano aaa.txt
+   24  nano aaa.txt 
+   25  ls -l aaa.txt 
+   26  cat aaa.txt 
+   27  cp aaa.txt  bbb.txt
+   28  ls -l bbb.txt 
+   29  ls
+   30  ls -l
+   31  cd /
+   32  pwd
+   33  mv ~/aaa.txt ~/Documents/ccc.txt
+   34  ls
+   35  cd ~
+   36  cd Documenti
+   37  cd Documents/
+   38  ls
+   39  ls -l
+   40  cd/
+   41  cd ...
+   42  cd ..
+   43  cd/
+   44  cd /
+   45  ls -l Documents/
+   46  cd ~
+   47  ls -l Documents/
+   48  pwd
+   49  mv ./Documents/ccc.txt ddd.txt
+   50  la -l
+   51  ls -l
+   52  mkdir manamape
+   53  mv *.txt manamape/
+   54  ls -l /manamape
+   55  ls
+   56  ls -l manamape/
+   57  cd manamape/
+   58  rm bbb.txt 
+   59  ls
+   60  cd ..
+   61  rmdir manamape
+   62  man rmdir
+   63  rm manamape/
+   64  rm -fr manamape/
+   65  la -l manampe
+   66  ls -l manamape/
+   67  nano MansPirmaisSkripts.sh
+   68  ls
+   69  MansPirmaisSkripts.sh
+   70  echo $PATH
+   71  ls
+   72  echo $PATH
+   73  ls /bin | grep ls
+   74  ls -l /bin/ls
+   75  ls
+   76  cat bin/ls
+   77  cat /bin/ls
+   78  ./MansPirmaisSkripts.sh
+   79  ~/MansPirmaisSkripts.sh
+   80  echo $PATH
+   81  $PATH=$PATH:~
+   82  PATH=$PATH:~/
+   83  echo $PATH
+   84  MansPirmaisSkripts.sh
+   85  ls -l
+   86  chmod 740 MansPirmaisSkripts.sh 
+   87  ls -l
+   88  MansPirmaisSkripts.sh 
+   89  ls -l
+   90  ls -l ManaMapeAuto/
+   91  cat ManaMapeAuto/
+   92  cat ManaMapeAuto/fff.txt
+   93  MansPirmaisSkripts.sh 
+   94  nano MansPirmaisSkripts.sh 
+   95  MansPirmaisSkripts.sh 
+   96  ls-lls -l
+   97  cat MansPirmaisSkripts.sh 
+   98  history
+   99  history > history_20190912b.txt
