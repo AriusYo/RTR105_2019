@@ -24,3 +24,4 @@ cd ~ - mājas
 cd / - saknes apgabals
 cd . -tepat
 cd .. - atpakaļ
+>> - papildina tekstu
