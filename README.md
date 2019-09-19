@@ -33,3 +33,18 @@ $PATH       - ceļi
 =           - definē
 chmod       - maina atļaijas
 rm          - dzēš
+git clone *links*	-dabū savu darba mapi
+git upload *nosaukums*	-nosūta darbu mapi uz github
+C kods---------------------------------------------------
+main		-sāk c ar šo
+gcc		- compiler 
+-o		-atslēga nosaukumam kompilējot
+//		-komentārs
+/*		-komentāru bloks
+()		-arguments
+{}		-darbību? bloks
+" "		-ievieto tekstu
+;		-beigās
+<stdio>		-?
+\n		-teksts jaunā rindkopā
+printf		-parāda tekstu

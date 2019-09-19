@@ -1,0 +1,87 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox
+    4  pwd
+    5  ls
+    6  git clone https://github.com/AriusYo/RTR105_2019
+    7  ls -l
+    8  cd RTR105_2019/
+    9  ls -l
+   10  ls -la
+   11  pwd
+   12  ls -l
+   13  cat README.md 
+   14  nano git-upload
+   15  ls -a
+   16  ls -l
+   17  cat git-upload 
+   18  chmod 700 git-upload 
+   19  ls -l
+   20  whereis git-upload
+   21  echo $PATH
+   22  ./git-upload 
+   23  ./git-upload 20190919_15_00
+   24  cd ..
+   25  la -l
+   26  ls
+   27  rm -rf RTR105_2019/
+   28  ls -l
+   29  git clone https://github.com/AriusYo/RTR105_2019
+   30  ls -l
+   31  cd RTR105_2019/
+   32  ls -l
+   33  cd ..
+   34  cd RTR105_2019/
+   35  nano elementary.c
+   36  ls -l
+   37  mkdir darbi
+   38  mv elementary.c  darbi/
+   39  cd darbi/
+   40  ls -l
+   41  cat elementary.c 
+   42  gcc elementary.c 
+   43  nano elementary.c 
+   44  gcc elementary.c 
+   45  ls -l
+   46  ./a.out 
+   47  gcc elementary.c 
+   48  ls -l
+   49  gcc elementary.c -o prg1
+   50  ls -l
+   51  ./prg1 
+   52  nano elementary.c 
+   53  gcc elementary.c -o prg2
+   54  ls -l
+   55  /*Komentāra 1. rinda
+   56  ano elementary.c 
+   57  nano elementary.c 
+   58  gcc elementary.c -o prg3
+   59  ls -l
+   60  cat prg1
+   61  cp elementary.c hello.c
+   62  ls -l
+   63  nano hello.c 
+   64  gcc hello.c 
+   65  nano hello.c 
+   66  gcc hello.c -o hello
+   67  nano hello.c 
+   68  gcc hello.c -o hello
+   69  cat hello
+   70  ./hello 
+   71  nano hello.c
+   72  cat hello.c
+   73  gcc hello.c -o hello
+   74  nano hello.c
+   75  gcc hello.c -o hello
+   76  ./hello
+   77  nano hello.c
+   78  gcc hello.c -o hello
+   79  ./hello 
+   80  ls -l
+   81  rm prg*
+   82  ls -l
+   83  rm a.out
+   84  rm hello
+   85  ls -l
+   86  cd ..
+   87  history > history_20190919_16_00
