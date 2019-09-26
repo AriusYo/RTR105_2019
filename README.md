@@ -48,3 +48,4 @@ gcc		- compiler
 <stdio>		-?
 \n		-teksts jaunā rindkopā
 printf		-parāda tekstu
+                        Skaitīšanasd sistēma  -dala uz divi dec lai dabūti bin
