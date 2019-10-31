@@ -1,0 +1,3 @@
+//deklaracijas
+int kvadrats(int);
+
