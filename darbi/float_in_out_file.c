@@ -1,9 +1,3 @@
-/* taisīšu random float generator
-   pārlikšu to uz failu
-   aiztaisīšu atvēršu failu
-   tad nolasīšu kas ir failā */
-
-// laikam vajag kautko citu
 #include<stdio.h>
 #include<stdlib.h	>
 void main()
