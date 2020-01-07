@@ -3,7 +3,7 @@
 
 void main()
 {
- double x=2.05,y,a0,a1,a2,a3,S0,S1,S2,S3;
+ double x=1.75/*2.05*/,y,a0,a1,a2,a3,S0,S1,S2,S3;
 
  y = sin(x);
  printf("y=sin(%.2f)=%.2f\n\n",x,y);
