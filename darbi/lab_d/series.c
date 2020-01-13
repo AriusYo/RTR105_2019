@@ -16,6 +16,7 @@ void main(){
   printf("Lietotāj, ievadiet x vērtību:");
   scanf("%lf", &x);
   y = cos(x*x);
+  //printē izmantojot funkcijas isteiksmi
   printf("\ny=cos(%.2f)=%.2f\n\n", x*x, y);
 
   a = pow(-1,0)*pow(x,0)/(1.);
@@ -28,8 +29,10 @@ void main(){
     S = S + a;
     if(k == 499) a499 = a;
     if(k == 500) a500 = a;
-    printf("%d\t%.2f\t%.2f\t%.2f\n", k, x, a, S);
   }
-  printf("priekšpēdējā saskaitāmā vērtība: %lf\n", a499);
-  printf("pēdējā saskaitāmā vērtība: %lf\n", a500);
+  //printē pēc teilora rindas
+  printf("%d\t%.2f\t%.2f\t%.2f\n", (k-1), x, a, S);
+  //printē priekšpēdējo un pēdējo saskaitāmo
+  printf("priekšpēdējā saskaitāmā vērtība: %.5Lg\n", a499);
+  printf("pēdējā saskaitāmā vērtība: %.5Lg\n", a500);
 }
