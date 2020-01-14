@@ -91,6 +91,6 @@ failā derivative.dat ir tie paši rezultāti
 No šiem rezultātiem ir iespējams uzīmēt salīdzinoši precīzu grafiku
 
 ### Figures
-!(https://github.com/AriusYo/RTR105_2019/blob/master/darbi/lab_d/derivative.png)
+![Visi 3 grafiki parādīti ar gnuplot palīdzību](https://github.com/AriusYo/RTR105_2019/blob/master/darbi/lab_d/derivative.png)
 
 
