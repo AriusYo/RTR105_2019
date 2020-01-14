@@ -1,3 +1,48 @@
+# Labarotorijas darba Nr.3. - Atvasinājumi - atskaite
+
+## Teorija
+Aprēķina pirmās un otrās kārtas atvasinājumus, un to diferenciāļus.
+Rezultātus ueliek failā, un no šī  vaila ar gnuplot palīdzību zīmē grafikus.
+### kods
+```
+#include<stdio.h>
+#include<math.h>
+
+void main(){
+        double a, b, x, y, analythical, forward, twoAnalyth, twoForward, delta_x;
+        FILE *results;
+
+        printf("Lietotāj, lūdzu ievadiet vērtību a: ");
+        scanf("%lf", &a);
+        printf("Ievadiet vērtību b: ");
+        scanf("%lf", &b);
+        printf("Ievadiet precizitāti: ");
+        scanf("%lf", &delta_x);
+
+        printf("x\t\tf(x)\t\tfa'(x)\t\tfd'(x)\t\tfa''(x)\t\tfd''(x)");
+        results = fopen("derivative.dat","w");
+        fprintf(results,"x\t\tf(x)\t\tfa'(x)\t\tfd'(x)\t\tfa''(x)\t\tfd''(x)");
+        //x     f(x)    fa'(x)  fd'(x)  fa''(x) fd''(x)
+        for(x=a;x<=b;x+=delta_x){
+                y = cos(x*x);
+                analythical = (-1)*sin(x*x)*2*x;
+                forward = cos((x+delta_x)*(x+delta_x))-y;
+                twoAnalyth = (-1)*cos(x*x)*2*x*2;
+                twoForward = (-1)*cos((x+delta_x)*(x+delta_x))*2*(x+delta_x)*2;
+                fprintf(results,"\n%lf\t%lf\t%lf\t%lf\t%lf\t%lf", x, y, analythica$
+                printf("\n%lf\t%lf\t%lf\t%lf\t%lf\t%lf", x, y, analythical, forwar$
+        }
+        fclose(results);
+        printf("\n");
+}
+```
+Paprasa lietotājam a, b vērtības un precizitāti
+ciklā aprēķina vērtības un reizē tās printē un liek failā
+### Rezultāts
+```
+Lietotāj, lūdzu ievadiet vērtību a: -2
+Ievadiet vērtību b: 2
+Ievadiet precizitāti: 0.1 
 x		f(x)		fa'(x)		fd'(x)		fa''(x)		fd''(x)
 -2.000000	-0.653644	-3.027210	-0.238645	-5.229149	-6.781392
 -1.900000	-0.892288	-1.715570	-0.102873	-6.781392	-7.165166
@@ -39,3 +84,13 @@ x		f(x)		fa'(x)		fd'(x)		fa''(x)		fd''(x)
 1.700000	-0.968517	-0.846419	-0.026645	6.585917	7.165166
 1.800000	-0.995162	0.353695	0.102873	7.165166	6.781392
 1.900000	-0.892288	1.715570	0.238645	6.781392	5.229149
+
+```
+failā derivative.dat ir tie paši rezultāti
+### Analīze
+No šiem rezultātiem ir iespējams uzīmēt salīdzinoši precīzu grafiku
+
+### Figures
+!(https://github.com/AriusYo/RTR105_2019/blob/master/darbi/lab_d/derivative.png)
+
+

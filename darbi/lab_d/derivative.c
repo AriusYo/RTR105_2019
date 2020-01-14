@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<math.h>
-#include<string.h>
 
 void main(){
 	double a, b, x, y, analythical, forward, twoAnalyth, twoForward, delta_x;
