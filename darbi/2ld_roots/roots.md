@@ -61,6 +61,6 @@ iterācijas lai atrastu x:13
 ar lielāku precizitāti ir iespējams noteikt precīzāku saknes atrašanās vietu, ja tāda ir
 
 ### Figures
-![Bildes apraksts](https://raw.githubusercontent.com/tatusmatrix/RTR223f/master/2018_2019/images/CW1_1_1$
+![cos(x*x)](https://github.com/AriusYo/RTR105_2019/blob/master/darbi/lab_d/cos(x*x)%20bez%20pildijuma.png)
 
 

@@ -1,7 +1,12 @@
 # Labarotorijas darba Nr.4. - Integrāļi - atskaite
 
 ## Teorija
-
+Kvadrātu metode laukumā ko vēlas aprēķināt zīmē daudz taisnstūru, kuru laukumus summē
+Trapeces metode laukumā ko vēlas aprēķināt zīmē trapeces, rēķinot laukumu iekšējajās 
+malas reizina ar 2, taču ārējās nē, summa jādala ar 2
+Simpsona metodi izmanto tikai ar pāra skaitu daļu. 
+Sadala laukumu vairākās daļās, ārējās daļas nav jāreizina, 
+taču iekšējās ik pa 2 ir jāreizina ar 4 vai 2
 
 ### kods
 ```
@@ -32,7 +37,7 @@ void main(){
     k++;
   }
 printf("Laukums pēc kvadrāta metodes: %lf\n", lauk_rect);
-printf("Laukums pēc trapezoldāla metodes: %lf\n", (delta_x*lauk_trapez/2));
+printf("Laukums pēc trapeces metodes: %lf\n", (delta_x*lauk_trapez/2));
 printf("Laukums pēc Simpsona metodes: %lf\n", (delta_x*lauk_simps/3));
 }
 ```
@@ -52,6 +57,6 @@ Laukums pēc Simpsona metodes: 0.702891
 Rezultāti ir līdzīgi, un ar lielāku precizitāti būtu iespējams precīzāk aprēķināt laukumus
 
 ### Figures
-![Bildes apraksts](https://raw.githubusercontent.com/tatusmatrix/RTR223f/master/2018_2019/images/CW1_1_1$
+![cos(x*x)ar pildītu laukumu](https://github.com/AriusYo/RTR105_2019/blob/master/darbi/lab_d/cos(x*x)%20ar%20pildijumu.png)
 
 

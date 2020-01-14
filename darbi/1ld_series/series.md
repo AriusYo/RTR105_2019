@@ -3,8 +3,6 @@
 ## Teorija
 Aprēķinot funkcijas vērtību izmantojot teilora rindu iegūst ļoti tuvu 
 rezultātu vērtībai ko iegūst aprēķinot šo funkciju matemātiski
-teilora rinda
-rekurences reizinātājs
 
 ### kods
 ```
@@ -38,6 +36,23 @@ void main(){
   //printē priekšpēdējo un pēdējo saskaitāmo
   printf("priekšpēdējā saskaitāmā vērtība: %.5Lg\n", a499);
   printf("pēdējā saskaitāmā vērtība: %.5Lg\n", a500);
+
+  printf("\n\n\t            4\n");
+  printf("\t          -x^\n");
+  printf("\tR =  ----------------\n");
+  printf("\t      (2*k-1)*(2*k)\n");
+  printf("\n");
+
+  printf("\n");
+  printf("\n\t\t  500\n");
+  printf("\t\t______\n");
+  printf("\t\t\\               k  4*k\n");
+  printf("\t\t \\          (-1)^*x^\n");
+  printf("\ty(x)=\t  |     --------------   = cos(x*x)\n");
+  printf("\t\t /           (2*k)!\n");
+  printf("\t\t/      \n");
+  printf("\t\t------\n");
+  printf("\t\t  k=0\n");
 }
 ```
 Paprasa no lietotāja x vērtību
@@ -58,6 +73,24 @@ y=cos(1.00)=0.54
 priekšpēdējā saskaitāmā vērtība: 1.6794e-4932
 pēdējā saskaitāmā vērtība: 1.6794e-4932
 
+	            4
+	          -x^
+	R =  ----------------
+	      (2*k-1)*(2*k)
+
+
+
+		  500
+		______
+		\               k  4*k
+		 \          (-1)^*x^
+	y(x)=	  |     --------------   = cos(x*x)
+		 /           (2*k)!
+		/      
+		------
+		  k=0
+
+
 ```
 
 ### Analīze
@@ -65,4 +98,4 @@ Funkcijas cos(x*x) rezultāts aprēķinot to matemātiski un ar teilora rindu pr
 sakrīt, jo pēdējie saskaitāmie ir ļoti mazas vērtības  
 
 ### Figures
-![Bildes apraksts](https://raw.githubusercontent.com/tatusmatrix/RTR223f/master/2018_2019/images/CW1_1_1_EN.PNG)
+![cos(x*x)](https://github.com/AriusYo/RTR105_2019/blob/master/darbi/lab_d/cos(x*x)%20bez%20pildijuma.png)

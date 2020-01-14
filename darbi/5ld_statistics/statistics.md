@@ -1,7 +1,8 @@
 # Labarotorijas darba Nr.5. - Statistika - atskaite
 
 ## Teorija
-
+Katram simbolam ir ascii vērtība ko atpazīst dators
+Pēc šīs ascii vērtības ir iespējams sakārtot rindas
 
 ### kods
 ```
@@ -79,16 +80,30 @@ void main(){
 }
 
 ```
-
+Paprasa lietotājam rindu
+Noskaidro maksimālo un minimālo vērtību, un vidējo vērtību
+Ar countArray palīdzību sakārto rindu
+Atrod mediānu
+atrod modas un ieraksta tās countArray jo tā vairs nav vajadzīga
+Printē visu prasīto
 ### Rezultāts
 ```
+ievadiet simbolu rindu: 
+testa_jautajums
 
+rinda ir 15 simbolus gara
+minimālā vērtība ir: 95 
+maximālā vērtība ir: 117 
+vidējā vērtība: 108.000000 
+mediāna ir: 109
+Moda(s) ir: 97 116 
+ _   a   a   a   e   j   j   m   s   s   t   t   t   u   u  
+ 95  97  97  97 101 106 106 109 115 115 116 116 116 117 117 
 ```
 
 ### Analīze
+Ar šo kodu nav iespējams noteikt atstarpes, taču visu pārējo tas izdara kā prasīts
 
 
-### Figures
-![Bildes apraksts](https://raw.githubusercontent.com/tatusmatrix/RTR223f/master/2018_2019/images/CW1_1_1$
 
 

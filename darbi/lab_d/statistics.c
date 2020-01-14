@@ -8,10 +8,11 @@ void main(){
         unsigned int kopa;
         float vid;
         printf("ievadiet simbolu rindu: \n");
-        scanf("%s", &string);
+        scanf("%s", &string[0]);
         min = string[0];
         max = string[0];
         kopa = 0;
+
         for(i = 0;string[i] != '\0';i++){
                 //printf("simbola (%c) ascii vērtība:%d \n",string[i], string[i]);
                 if(min >= string[i])min = string[i];
@@ -23,7 +24,7 @@ void main(){
 	for(k=0;k<255;k++){
 		countarray[k] = 0;
 	}
-	for(k=0;string[k] != '\0';k++){
+	for(k=0;k != i;k++){
 		countarray[string[k]]++;
 	}
 	l = 0;
@@ -52,7 +53,7 @@ void main(){
         if((i%2) == 1){//nepāra
                 med = string[(i/2)];
         }
-//        printf("rinda ir %d simbolus gara\n",i);
+        printf("rinda ir %d simbolus gara\n",i);
         printf("minimālā vērtība ir: %d \n", min);
         printf("maximālā vērtība ir: %d \n", max);
         printf("vidējā vērtība: %f \n",vid);
